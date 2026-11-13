@@ -1,0 +1,68 @@
+{
+  "format": "67js.scene",
+  "schemaVersion": 1,
+  "geometries": [
+    { "id": "water-plane", "type": "grid" },
+    { "id": "pier-box", "type": "box", "bevel": 0.05 }
+  ],
+  "materials": [
+    {
+      "id": "sea-mat",
+      "tag": "water",
+      "color": [0.05, 0.22, 0.34],
+      "metallic": 0,
+      "roughness": 0.15,
+      "emission": 0,
+      "opacity": 0.85,
+      "alphaMode": "blend",
+      "doubleSided": false,
+      "waterPreset": "sea",
+      "absorption": [0.4, 0.06, 0.02],
+      "turbidity": 0.1
+    },
+    {
+      "id": "concrete-mat",
+      "tag": "surface",
+      "color": [0.62, 0.6, 0.56],
+      "metallic": 0,
+      "roughness": 0.85,
+      "emission": 0,
+      "opacity": 1,
+      "alphaMode": "opaque",
+      "doubleSided": false
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sea",
+      "geometry": "water-plane",
+      "material": "sea-mat",
+      "translation": [0, 0, 0],
+      "rotation": [-0.7071067811865476, 0, 0, 0.7071067811865476],
+      "scale": [40, 40, 1],
+      "parent": null
+    },
+    {
+      "id": "test-pier",
+      "geometry": "pier-box",
+      "material": "concrete-mat",
+      "translation": [0, 0.75, 0],
+      "scale": [10, 1.5, 4],
+      "parent": null,
+      "rotation": [0, 0, 0, 1]
+    }
+  ],
+  "camera": {
+    "eye": [12, 8, 16],
+    "target": [0, 1, 0],
+    "up": [0, 1, 0],
+    "fov": 45,
+    "near": 0.1,
+    "far": 1000
+  },
+  "environment": {
+    "world": true,
+    "setup": "daylight",
+    "ground": false
+  }
+}

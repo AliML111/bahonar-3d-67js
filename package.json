@@ -1,0 +1,25 @@
+{
+  "name": "bahonar-3d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "67js": "npm:@codepawlhq/67js@^0.19.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}

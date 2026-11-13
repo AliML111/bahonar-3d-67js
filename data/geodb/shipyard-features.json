@@ -1,0 +1,221 @@
+{
+  "drydocks": [
+    {
+      "id": "water-206856776",
+      "osmId": 206856776,
+      "subType": "drydock",
+      "centerXZ": [
+        722.47,
+        -745.73
+      ],
+      "widthM": 195.49,
+      "depthM": 29.98,
+      "areaSqm": 5743.75,
+      "footprintXZ": [
+        [
+          706.084,
+          -843.256
+        ],
+        [
+          708.879,
+          -647.784
+        ],
+        [
+          737.816,
+          -648.504
+        ],
+        [
+          736.071,
+          -842.912
+        ],
+        [
+          706.084,
+          -843.256
+        ]
+      ]
+    },
+    {
+      "id": "water-206856777",
+      "osmId": 206856777,
+      "subType": "drydock",
+      "centerXZ": [
+        766.58,
+        -724.94
+      ],
+      "widthM": 151.7,
+      "depthM": 25.47,
+      "areaSqm": 3827.99,
+      "footprintXZ": [
+        [
+          752.814,
+          -800.607
+        ],
+        [
+          754.876,
+          -648.925
+        ],
+        [
+          780.343,
+          -649.545
+        ],
+        [
+          777.915,
+          -800.607
+        ],
+        [
+          752.814,
+          -800.607
+        ]
+      ]
+    },
+    {
+      "id": "water-1544384453",
+      "osmId": 1544384453,
+      "subType": "reservoir",
+      "centerXZ": [
+        338.36,
+        -1450.95
+      ],
+      "widthM": 63.94,
+      "depthM": 23.26,
+      "areaSqm": 1486.71,
+      "footprintXZ": [
+        [
+          370.255,
+          -1462.793
+        ],
+        [
+          306.315,
+          -1462.372
+        ],
+        [
+          306.474,
+          -1439.125
+        ],
+        [
+          370.404,
+          -1439.535
+        ],
+        [
+          370.255,
+          -1462.793
+        ]
+      ]
+    }
+  ],
+  "slipway": {
+    "id": "slipway-556364551",
+    "osmId": 556364551,
+    "kind": "slipway",
+    "isArea": true,
+    "floating": false,
+    "grounded": true,
+    "centerXZ": [
+      837.6,
+      -758.59
+    ],
+    "lengthM": 73.78,
+    "widthM": 14.45,
+    "rotationY": -1.56434,
+    "areaSqm": 1066.02,
+    "bounds": {
+      "minX": 830.14,
+      "maxX": 845.07,
+      "minZ": -795.53,
+      "maxZ": -721.66
+    },
+    "pointsXZ": [
+      [
+        830.137,
+        -795.432
+      ],
+      [
+        844.591,
+        -795.532
+      ],
+      [
+        845.067,
+        -721.757
+      ],
+      [
+        830.623,
+        -721.658
+      ],
+      [
+        830.137,
+        -795.432
+      ]
+    ],
+    "tags": {
+      "leisure": "slipway"
+    }
+  },
+  "workshopsCompound": {
+    "name": "Port Machine Workshops & Fabrication",
+    "nameFa": "کارگاه تراشکاری و تعمیرات بندر باهنر",
+    "centerXZ": [
+      -280,
+      -320
+    ],
+    "buildings": [
+      "bldg-206861369",
+      "bldg-206861376",
+      "bldg-206861386",
+      "bldg-206861393",
+      "bldg-206861396",
+      "bldg-206861400"
+    ]
+  },
+  "repairCraftSlots": [
+    {
+      "id": "shipyard-slot-drydock-1",
+      "description": "Drydock Basin 1 Repair Hull",
+      "centerXZ": [
+        722,
+        -767
+      ],
+      "rotY": -1.57,
+      "craftType": "coastal_cargo_hull_under_repair"
+    },
+    {
+      "id": "shipyard-slot-drydock-2",
+      "description": "Drydock Basin 2 Service Tug in Blocks",
+      "centerXZ": [
+        768,
+        -741
+      ],
+      "rotY": -1.57,
+      "craftType": "service_tug_in_blocks"
+    },
+    {
+      "id": "shipyard-slot-slipway",
+      "description": "Marine Slipway Incline Cradle Hull",
+      "centerXZ": [
+        840,
+        -765
+      ],
+      "rotY": -1.57,
+      "craftType": "lenj_dhow_cradle_haul"
+    },
+    {
+      "id": "shipyard-slot-fitting-quay",
+      "description": "Outfitting Quay Repair Crane Barge",
+      "centerXZ": [
+        746,
+        -606
+      ],
+      "rotY": 0,
+      "craftType": "floating_repair_crane_barge"
+    },
+    {
+      "id": "shipyard-slot-service-tender",
+      "description": "Work Tender at Outfitting Pier",
+      "centerXZ": [
+        804,
+        -575
+      ],
+      "rotY": 0,
+      "craftType": "maintenance_work_tender"
+    }
+  ]
+}

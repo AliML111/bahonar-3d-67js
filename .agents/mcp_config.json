@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "67js-scene": {
+      "command": "C:/Program Files/nodejs/node.exe",
+      "args": [
+        "C:/Users/gamea/OneDrive/Documents/bahonar-3d/node_modules/67js/bin/67js-mcp.mjs",
+        "--backend",
+        "gpu",
+        "--memory",
+        "192",
+        "--browser",
+        "C:/Program Files/Google/Chrome/Application/chrome.exe",
+        "--assets",
+        "C:/Users/gamea/OneDrive/Documents/bahonar-3d/assets/glb",
+        "--jobs",
+        "C:/Users/gamea/OneDrive/Documents/bahonar-3d/renders/jobs"
+      ]
+    }
+  }
+}
